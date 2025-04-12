@@ -1,0 +1,116 @@
+body {
+    background-color: #0f0f1b;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .glass-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .background-shape {
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .shape1 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(#843bc7, #23d5ab);
+    left: -60px;
+    top: -60px;
+  }
+  
+  .shape2 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, #23d5ab, #ee7752);
+    right: -30px;
+    bottom: -80px;
+  }
+  
+  .glass-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 50px 35px;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    color: #fff;
+  }
+  
+  .glass-form h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .glass-form label {
+    margin-top: 20px;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .glass-form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+  }
+  
+  .glass-form button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #080710;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+  
+  .social-btn {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .social-btn:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .signup-link {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .signup-link span {
+    color: #23d5ab;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
